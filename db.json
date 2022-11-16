@@ -64,6 +64,18 @@
       "email": "rakib@gmail.com",
       "password": "12345",
       "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
     }
   ],
   "products": [
@@ -77,12 +89,12 @@
       "id": 1
     },
     {
-      "name": "I Phone 14",
-      "price": "180000",
+      "name": "iPhone 14",
+      "price": "100000",
+      "category": "Mobiles",
       "color": "Black",
-      "category": "Mobile",
-      "description": "An Apple Product",
       "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "description": "Hello Users",
       "id": 2
     }
   ]
