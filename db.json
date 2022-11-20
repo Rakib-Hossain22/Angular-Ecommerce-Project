@@ -1,92 +1,92 @@
 {
-  "seller": [
-    {
-      "name": "Md Rakib Hossain",
-      "email": "rakib@gmail.com",
-      "password": "12345",
-      "id": 1
-    },
-    {
-      "name": "Md Rakib",
-      "email": "rakib@gmail.com",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "name": "Rakib",
-      "email": "rakib@gmail.com",
-      "password": "12345",
-      "id": 3
-    },
-    {
-      "name": "Mithu",
-      "email": "rakibmithu@gmail.com",
-      "password": "12345",
-      "id": 4
-    },
-    {
-      "name": "Rakib",
-      "email": "rakib@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "name": "Mithu",
-      "email": "rakib@gmail.com",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "name": "Rakib",
-      "email": "rakib@gmail.com",
-      "password": "123456",
-      "id": 7
-    },
-    {
-      "name": "Rakib",
-      "email": "rakib@gmail.com",
-      "password": "12345",
-      "id": 8
-    },
-    {
-      "name": "Rakib",
-      "email": "rakib@gmail.com",
-      "password": "12345+",
-      "id": 9
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 10
-    },
-    {
-      "name": "Md Rakib Hossain",
-      "email": "rakib@gmail.com",
-      "password": "12345",
-      "id": 11
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 12
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 13
-    }
-  ],
-  "products": [
-    {
-      "name": "Samsung  A13",
-      "price": "23000",
-      "color": "Black",
-      "category": "Mobile",
-      "description": "A Samsung Product",
-      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-      "id": 1
-    }
-  ]
+    "seller": [
+        {
+            "name": "Md Rakib Hossain",
+            "email": "rakib@gmail.com",
+            "password": "12345",
+            "id": 1
+        },
+        {
+            "name": "Md Rakib",
+            "email": "rakib@gmail.com",
+            "password": "12345",
+            "id": 2
+        },
+        {
+            "name": "Rakib",
+            "email": "rakib@gmail.com",
+            "password": "12345",
+            "id": 3
+        },
+        {
+            "name": "Mithu",
+            "email": "rakibmithu@gmail.com",
+            "password": "12345",
+            "id": 4
+        },
+        {
+            "name": "Rakib",
+            "email": "rakib@gmail.com",
+            "password": "123456",
+            "id": 5
+        },
+        {
+            "name": "Mithu",
+            "email": "rakib@gmail.com",
+            "password": "123456",
+            "id": 6
+        },
+        {
+            "name": "Rakib",
+            "email": "rakib@gmail.com",
+            "password": "123456",
+            "id": 7
+        },
+        {
+            "name": "Rakib",
+            "email": "rakib@gmail.com",
+            "password": "12345",
+            "id": 8
+        },
+        {
+            "name": "Rakib",
+            "email": "rakib@gmail.com",
+            "password": "12345+",
+            "id": 9
+        },
+        {
+            "email": "",
+            "password": "",
+            "id": 10
+        },
+        {
+            "name": "Md Rakib Hossain",
+            "email": "rakib@gmail.com",
+            "password": "12345",
+            "id": 11
+        },
+        {
+            "name": "",
+            "email": "",
+            "password": "",
+            "id": 12
+        },
+        {
+            "name": "",
+            "email": "",
+            "password": "",
+            "id": 13
+        }
+    ],
+    "products": [
+        {
+            "name": "Samsung  A13",
+            "price": "23000",
+            "color": "Black",
+            "category": "Mobile",
+            "description": "A Samsung Product",
+            "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+            "id": 1
+        }
+    ]
 }
