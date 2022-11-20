@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
         this.route.events.subscribe((val: any) => {
             if (val.url) {
                 if (localStorage.getItem('seller') && val.url.includes('seller')) {
-                    console.log("In Seller Area");
+                    // console.log("In Seller Area");
                     this.menuType = "seller";
                     if (localStorage.getItem('seller')) {
                         let sellerStore = localStorage.getItem('seller');
