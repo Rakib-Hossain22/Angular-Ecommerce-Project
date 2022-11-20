@@ -87,15 +87,6 @@
       "description": "A Samsung Product",
       "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
       "id": 1
-    },
-    {
-      "name": "iPhone 14",
-      "price": "100000",
-      "category": "Mobiles",
-      "color": "Black",
-      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
-      "description": "Hello Users",
-      "id": 2
     }
   ]
 }
