@@ -80,13 +80,22 @@
   ],
   "products": [
     {
-        "name": "Samsung  A13",
-        "price": "23000",
-        "color": "Black",
-        "category": "Mobile",
-        "description": "A Samsung Product",
-        "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-        "id": 1
-      }
+      "name": "Samsung  A13",
+      "price": "22999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Samsung Product",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "id": 1
+    },
+    {
+      "name": "iPhone 14",
+      "price": "199000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "id": 2
+    }
   ]
 }
