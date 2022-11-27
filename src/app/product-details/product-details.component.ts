@@ -10,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProductDetailsComponent implements OnInit {
     productData: undefined | product;
+    productQuantity: number = 1;
 
     constructor(
         private activeRoute: ActivatedRoute,
@@ -24,4 +25,12 @@ export class ProductDetailsComponent implements OnInit {
         });
     }
 
+    handleQuantity(val: string) {
+        if (this.productQuantity < 20 && val === 'plus') {
+            this.productQuantity += 1;
+        } else if (this.productQuantity > 1 && val === 'min') {
+            this.productQuantity -= 1;
+        }
+    }
+    
 }
