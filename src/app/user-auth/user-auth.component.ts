@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SignUp } from '../data-type';
+import { Login, SignUp } from '../data-type';
 import { UserService } from '../services/user.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { UserService } from '../services/user.service';
     styleUrls: ['./user-auth.component.scss']
 })
 export class UserAuthComponent implements OnInit {
-
+    showLogin: boolean = true;
     constructor(private user: UserService) { }
 
     ngOnInit(): void {
@@ -17,6 +17,18 @@ export class UserAuthComponent implements OnInit {
 
     signUp(data: SignUp) {
         this.user.userSignUp(data);
+    }
+
+    login(data: Login) {
+        console.log(data);
+    }
+
+    openLogin() {
+        this.showLogin = true;
+    }
+
+    openSignUp() {
+        this.showLogin = false;
     }
 
 }
