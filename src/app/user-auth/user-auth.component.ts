@@ -20,7 +20,7 @@ export class UserAuthComponent implements OnInit {
     }
 
     login(data: Login) {
-        console.log(data);
+        this.user.userLogin(data);
     }
 
     openLogin() {

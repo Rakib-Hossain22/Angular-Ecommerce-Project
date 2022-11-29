@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { SignUp } from '../data-type';
+import { Login, SignUp } from '../data-type';
 
 @Injectable({
     providedIn: 'root',
@@ -19,7 +19,19 @@ export class UserService {
                     localStorage.setItem('user', JSON.stringify(result.body));
                     this.router.navigate(['/']);
                 }
-            });
+            }
+        );
+    }
+
+    userLogin(data: Login) {
+        this.http.get<SignUp[]>(`http://localhost:3000/users?email=${data.email}&password=${data.password}`, { observe: 'response' })
+            .subscribe((result) => {
+                if (result && result.body) {
+                    localStorage.setItem('user', JSON.stringify(result.body[0]));
+                    this.router.navigate(['/']);
+                }
+            }
+        );
     }
 
     userAuthReload() {

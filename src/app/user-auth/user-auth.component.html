@@ -1,59 +1,22 @@
-    <div class="user-auth">
+<div class="user-auth">
     <div *ngIf="!showLogin" class="user-signup">
         <h1>User Signup</h1>
-        <form
-            #userSign="ngForm"
-            class="common-form"
-            (ngSubmit)="signUp(userSign.value)"
-        >
-        <input
-            type="text"
-            class="form-input"
-            placeholder="Enter User Name"
-            name="name"
-            ngModel
-        />
-        <input
-            type="text"
-            class="form-input"
-            placeholder="Enter User Email"
-            name="email"
-            ngModel
-        />
-        <input
-            type="password"
-            class="form-input"
-            placeholder="Enter User Pasword"
-            name="pasword"
-            ngModel
-        />
-        <button class="form-button">Sign-up</button>
-        <p>Already Have Account ? <a (click)="openLogin()">Click Here</a></p>
+        <form #userSign="ngForm" class="common-form" (ngSubmit)="signUp(userSign.value)">
+            <input type="text" class="form-input" placeholder="Enter User Name" name="name" ngModel />
+            <input type="text" class="form-input" placeholder="Enter User Email" name="email" ngModel />
+            <input type="password" class="form-input" placeholder="Enter User Pasword" name="password" ngModel />
+            <button class="form-button">Sign-up</button>
+            <p>Already Have Account ? <a (click)="openLogin()">Click Here</a></p>
         </form>
     </div>
+
     <div *ngIf="showLogin" class="user-login">
         <h1>User Login</h1>
-        <form
-            #userLogin="ngForm"
-            class="common-form"
-            (ngSubmit)="login(userLogin.value)"
-        >
-        <input
-            type="text"
-            class="form-input"
-            placeholder="Enter User Email"
-            name="email"
-            ngModel
-        />
-        <input
-            type="password"
-            class="form-input"
-            placeholder="Enter User Pasword"
-            name="pasword"
-            ngModel
-        />
-        <button class="form-button">Login</button>
-        <p>Create A New Account ? <a (click)="openSignUp()">Click Here</a></p>
+        <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
+            <input type="text" class="form-input" placeholder="Enter User Email" name="email" ngModel />
+            <input type="password" class="form-input" placeholder="Enter User Pasword" name="password" ngModel />
+            <button class="form-button">Login</button>
+            <p>Create A New Account ? <a (click)="openSignUp()">Click Here</a></p>
         </form>
     </div>
-    </div>
+</div>
