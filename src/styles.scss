@@ -4,13 +4,14 @@
 body{
     font-family: 'sans-serif';
 }
+
 .container {
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .common-form {
-    text-align: center;
+    // text-align: center;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -31,6 +32,10 @@ body{
     cursor: pointer;
 }
 
+.error-p {
+    color: red;
+}
+
 .message_p {
     color: green;
 }
@@ -43,4 +48,14 @@ body{
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: black;
     border-radius: 5px;
+}
+
+.invalid-input {
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+button:disabled {
+    cursor: not-allowed;
 }
