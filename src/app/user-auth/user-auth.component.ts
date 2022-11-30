@@ -23,7 +23,6 @@ export class UserAuthComponent implements OnInit {
     login(data: Login) {
         this.user.userLogin(data);
         this.user.invalidUserAuth.subscribe((result) => {
-            console.log("Apple", result);
             if (result) {
                 this.authError = "Please enter valid user details";
             }
