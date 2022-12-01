@@ -26,7 +26,7 @@ export class UserAuthComponent implements OnInit {
             if (result) {
                 this.authError = "Please enter valid user details";
             }
-        })
+        });
     }
 
     openLogin() {
