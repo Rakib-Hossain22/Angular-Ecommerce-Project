@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
     sellerName: string = '';
     searchResult: undefined | product[];
     userName: string = '';
+    cartItems = 0;
     constructor(
         private route: Router,
         private product: ProductService
@@ -21,13 +22,12 @@ export class HeaderComponent implements OnInit {
     ngOnInit(): void {
         this.route.events.subscribe((val: any) => {
             if (val.url) {
-                if (localStorage.getItem('seller') && val.url.includes('seller')) {
-                    // console.log("In Seller Area");
-                    this.menuType = "seller";
+                if (localStorage.getItem('seller') && val.url.includes('seller')) {                    
                     if (localStorage.getItem('seller')) {
                         let sellerStore = localStorage.getItem('seller');
                         let sellerData = sellerStore && JSON.parse(sellerStore)[0];
                         this.sellerName = sellerData.name;
+                        this.menuType = "seller";
                     }
                 } else if (localStorage.getItem('user')) {
                     let userStore = localStorage.getItem('user');
@@ -38,6 +38,14 @@ export class HeaderComponent implements OnInit {
                     this.menuType = "default";
                 }
             }
+        });
+        let cartData = localStorage.getItem('localCart');
+        if (cartData) {
+            this.cartItems = JSON.parse(cartData).length;
+        }
+
+        this.product.cartData.subscribe((items) => {
+            this.cartItems = items.length;
         });
     }
 
