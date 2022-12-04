@@ -207,5 +207,31 @@
             "password": "12345",
             "id": 8
         }
+    ],
+    "cart": [
+        {
+            "name": "Dell Laptop",
+            "price": "70000",
+            "color": "Silver",
+            "category": "Laptop",
+            "description": "A Dell Product",
+            "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "quantity": 1,
+            "productId": 5,
+            "userId": 8,
+            "id": 1
+        },
+        {
+            "name": "iPhone 14",
+            "price": "199000",
+            "color": "Silver",
+            "category": "Mobile",
+            "description": "A Apple Product",
+            "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+            "quantity": 10,
+            "productId": 2,
+            "userId": 8,
+            "id": 2
+        }
     ]
 }
