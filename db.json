@@ -1,237 +1,345 @@
 {
-    "seller": [
-        {
-            "name": "Md Rakib Hossain",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 1
-        },
-        {
-            "name": "Md Rakib",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 2
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 3
-        },
-        {
-            "name": "Mithu",
-            "email": "rakibmithu@gmail.com",
-            "password": "12345",
-            "id": 4
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 5
-        },
-        {
-            "name": "Mithu",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 6
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 7
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 8
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "12345+",
-            "id": 9
-        },
-        {
-            "email": "",
-            "password": "",
-            "id": 10
-        },
-        {
-            "name": "Md Rakib Hossain",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 11
-        },
-        {
-            "name": "",
-            "email": "",
-            "password": "",
-            "id": 12
-        },
-        {
-            "name": "",
-            "email": "",
-            "password": "",
-            "id": 13
-        },
-        {
-            "name": "",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 14
-        }
-    ],
-    "products": [
-        {
-            "name": "Samsung  A13",
-            "price": "22999",
-            "color": "Silver",
-            "category": "Mobile",
-            "description": "A Samsung Product",
-            "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-            "id": 1
-        },
-        {
-            "name": "iPhone 14",
-            "price": "199000",
-            "color": "Silver",
-            "category": "Mobile",
-            "description": "A Apple Product",
-            "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
-            "id": 2
-        },
-        {
-            "name": "HP Laptop",
-            "price": "79000",
-            "color": "Navy Blue",
-            "category": "Laptop",
-            "description": "A Hp  Product",
-            "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06731705.png",
-            "id": 3
-        },
-        {
-            "name": "iPhone 14pro max",
-            "price": "210000",
-            "color": "Black",
-            "category": "Mobile",
-            "description": "A Apple Product",
-            "image": "https://www.gsmarena.com.bd/images/products/Apple-iPhone-14-Pro-Max-Space-Black.jpg",
-            "id": 4
-        },
-        {
-            "name": "Dell Laptop",
-            "price": "70000",
-            "color": "Silver",
-            "category": "Laptop",
-            "description": "A Dell Product",
-            "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
-            "id": 5
-        },
-        {
-            "name": "Samsung  A13",
-            "price": "23000",
-            "color": "Black",
-            "category": "Mobile",
-            "description": "A Samsung Proudct",
-            "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-            "id": 6
-        },
-        {
-            "name": "Samsung  A13",
-            "price": "23000",
-            "color": "Black",
-            "category": "Mobile",
-            "description": "A Samsung Proudct",
-            "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-            "id": 7
-        },
-        {
-            "name": "Samsung  A13",
-            "price": "23000",
-            "color": "Black",
-            "category": "Mobile",
-            "description": "A Samsung Proudct",
-            "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
-            "id": 8
-        }
-    ],
-    "users": [
-        {
-            "name": "Rakib",
-            "email": "rakibuser@gmail.com",
-            "password": "12345",
-            "id": 1
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@user.com",
-            "password": "12345",
-            "id": 2
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 3
-        },
-        {
-            "name": "",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 4
-        },
-        {
-            "name": "mithu",
-            "email": "mithu@user.com",
-            "password": "12345",
-            "id": 5
-        },
-        {
-            "name": "mithu",
-            "email": "mithu@user.com",
-            "password": "12345",
-            "id": 6
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "123456",
-            "id": 7
-        },
-        {
-            "name": "Rakib",
-            "email": "rakib@gmail.com",
-            "password": "12345",
-            "id": 8
-        }
-    ],
-    "cart": [
-        {
-            "name": "Dell Laptop",
-            "price": "70000",
-            "color": "Silver",
-            "category": "Laptop",
-            "description": "A Dell Product",
-            "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
-            "quantity": 1,
-            "productId": 5,
-            "userId": 8,
-            "id": 1
-        },
-        {
-            "name": "iPhone 14",
-            "price": "199000",
-            "color": "Silver",
-            "category": "Mobile",
-            "description": "A Apple Product",
-            "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
-            "quantity": 10,
-            "productId": 2,
-            "userId": 8,
-            "id": 2
-        }
-    ]
+  "seller": [
+    {
+      "name": "Md Rakib Hossain",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Md Rakib",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Mithu",
+      "email": "rakibmithu@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "Mithu",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "12345+",
+      "id": 9
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "Md Rakib Hossain",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung  A13",
+      "price": "22999",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Samsung Product",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "id": 1
+    },
+    {
+      "name": "iPhone 14",
+      "price": "199000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "79000",
+      "color": "Navy Blue",
+      "category": "Laptop",
+      "description": "A Hp  Product",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06731705.png",
+      "id": 3
+    },
+    {
+      "name": "iPhone 14pro max",
+      "price": "210000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://www.gsmarena.com.bd/images/products/Apple-iPhone-14-Pro-Max-Space-Black.jpg",
+      "id": 4
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "70000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "A Dell Product",
+      "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "id": 5
+    },
+    {
+      "name": "Samsung  A13",
+      "price": "23000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Samsung Proudct",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "id": 6
+    },
+    {
+      "name": "Samsung  A13",
+      "price": "23000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Samsung Proudct",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "id": 7
+    },
+    {
+      "name": "Samsung  A13",
+      "price": "23000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Samsung Proudct",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Rakib",
+      "email": "rakibuser@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@user.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "mithu",
+      "email": "mithu@user.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "mithu",
+      "email": "mithu@user.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "Rakib",
+      "email": "rakib@gmail.com",
+      "password": "12345",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "Dell Laptop",
+      "price": "70000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "A Dell Product",
+      "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 8,
+      "id": 1
+    },
+    {
+      "name": "iPhone 14",
+      "price": "199000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "quantity": 10,
+      "productId": 2,
+      "userId": 8,
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "79000",
+      "color": "Navy Blue",
+      "category": "Laptop",
+      "description": "A Hp  Product",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06731705.png",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "iPhone 14pro max",
+      "price": "210000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://www.gsmarena.com.bd/images/products/Apple-iPhone-14-Pro-Max-Space-Black.jpg",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Samsung  A13",
+      "price": "23000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Samsung Proudct",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "quantity": 1,
+      "productId": 6,
+      "userId": null,
+      "id": 5
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "70000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "A Dell Product",
+      "image": "https://www.cnet.com/a/img/resize/f7d6e322bf691cd0c6dffc690c9394951742e561/hub/2022/07/07/63546f99-4d45-49e2-b2fb-55e919287e24/dell-xps-17-9720-2022-0773.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 8,
+      "id": 6
+    },
+    {
+      "name": "iPhone 14pro max",
+      "price": "210000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://www.gsmarena.com.bd/images/products/Apple-iPhone-14-Pro-Max-Space-Black.jpg",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 7
+    },
+    {
+      "name": "iPhone 14pro max",
+      "price": "210000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://www.gsmarena.com.bd/images/products/Apple-iPhone-14-Pro-Max-Space-Black.jpg",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "name": "Samsung  A13",
+      "price": "22999",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Samsung Product",
+      "image": "https://www.mobiledokan.com/wp-content/uploads/2022/04/Samsung-Galaxy-A13.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 8,
+      "id": 9
+    },
+    {
+      "name": "iPhone 14",
+      "price": "199000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 10
+    },
+    {
+      "name": "iPhone 14",
+      "price": "199000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "A Apple Product",
+      "image": "https://telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 11
+    }
+  ]
 }
